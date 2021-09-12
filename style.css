@@ -2,17 +2,18 @@
  body {
 	 background-color: #2b2b2b;
 	 color: white;
-	 font-size: 5vh;
+	 font-size: 5vw;
 	 display: flex;
+	 flex-direction: column;
 	 justify-content: center;
 	 align-items: center;
-	 height: 100vh;
 	 font-family: 'Darker Grotesque', sans-serif;
 }
  body .typing-container {
 	 display: flex;
 	 justify-content: center;
 	 align-items: center;
+	 height: 98vh;
 }
  body .typing-container #feature-text {
 	 margin-left: 8px;
