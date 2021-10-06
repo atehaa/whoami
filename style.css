@@ -41,25 +41,9 @@
 	}
 }
  
-a {
-    text-decoration: none;
+a:hover, a:visited, a:link, a:active, a, a:-webkit-any-link {
+    text-decoration: none !important;
     color: white !important;
-    cursor: pointer;
+    cursor: pointer !important;
 }
 
-a:link {
-    text-decoration: none;
-    color: white !important;
-    cursor: pointer;
-}
-
-a:visited {
-    text-decoration: none;
-    color: white !important;
-    cursor: pointer;
-}
-
-a:-webkit-any-link {
-    color: white !important;
-    cursor: pointer;
-}
